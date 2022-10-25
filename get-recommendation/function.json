@@ -1,0 +1,32 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in",
+      "methods": [
+        "get",
+        "post"
+      ],
+      "route":"recommendation/{id}"
+    },
+    {
+      "name": "$return",
+      "type": "http",
+      "direction": "out"
+    },
+    {
+      "type": "cosmosDB",
+      "name": "recommendation",
+      "databaseName": "Recommendation",
+      "collectionName": "UserArticles",
+      "connectionStringSetting": "recom-books_DOCUMENTDB",
+      "direction": "in",
+      "id": "{id}",
+      "partitionKey": "{id}"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "__init__.py"
+}

@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "mobileappes_DOCUMENTDB": "AccountEndpoint=https://mobileappes.documents.azure.com:443/;AccountKey=ZC0Hx7cgvOBNGBtNnsl5Q4QkoFRMYpQBNlgiGSPCYaSzvOVXko6ieNaB37GyNg1EW8l4n2Qtu8apvVgrU1sDGw==;",
+    // "AzureWebJobs.HttpTrigger1.Disabled": "true",
+    // "AzureWebJobs.get-recommendation.Disabled": "true"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "recom-books_DOCUMENTDB": "AccountEndpoint=https://recom-books.documents.azure.com:443/;AccountKey=GF1YfdZed8HIQN3opirxs8RNhswLlEYUKUdvpxNGRSPJXMdMtwfCAHxbIWeiXFP5mZ23hAD9MmwVF6KfnYmCPQ==;",
+    "AzureWebJobs.HttpTrigger1.Disabled": "true"
+  }
+}
