@@ -55,9 +55,10 @@ user_id = int(selected_user)
 
 if st.button("Get Recommendation"):
     with st.spinner("Analyzing the library …"):
-        API_url = "http://localhost:7071/api/recommendation/" + str(user_id)
+       API_url = "https://get-recommendation.azurewebsites.net/api/recommendation/" + str(user_id)
         with urlopen(API_url) as f:
             API_data = json.loads(f.read())
-        st.write(API_data)
+        st.write("Recommended articles for selected user:" )
+        st.write(API_data['articles'])
 
 
