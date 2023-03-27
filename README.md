@@ -30,4 +30,18 @@ Goals: Create a Recommender System. To do so, we will complete the following tas
   Download and extract the files from [Kaggle](https://www.kaggle.com/datasets/gspmoreira/news-portal-user-interactions-by-globocom).
 
   ### Exploratory Data Analysis
-  The main notebook presents the results of the EDA
+  The notebook named ES_1_P9_EDA presents the results of the Exploratory Data analysis.
+  
+  ### Filtering models
+  From ES_2 to ES_4 you will find diferent notebooks showing specific filtering strategies. 
+  
+  ### Storing
+  The notebook ES_5 contains the code to use Azure Store.
+  
+  ## Author
+ 
+ **Ezequiel Saraceno**
+ 
+ ## Show your support
+
+Give a ⭐️ if this project helped you!
