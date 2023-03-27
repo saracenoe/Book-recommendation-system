@@ -38,6 +38,10 @@ Goals: Create a Recommender System. To do so, we will complete the following tas
   ### Storing
   The notebook ES_5 contains the code to use Azure Store.
   
+## Run streamlit app  
+  Within the correct folder, type: 
+  streamlit run my_app_azfunction.py
+  
   ## Author
  
  **Ezequiel Saraceno**
