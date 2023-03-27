@@ -27,7 +27,7 @@ Goals: Create a Recommender System. To do so, we will complete the following tas
 
 ## Usage
   ### Data
-  Download and extract the files from [Frames Dataset](https://www.kaggle.com/datasets/gspmoreira/news-portal-user-interactions-by-globocom).
+  Download and extract the files from [Kaggle](https://www.kaggle.com/datasets/gspmoreira/news-portal-user-interactions-by-globocom).
 
   ### Exploratory Data Analysis
   The main notebook presents the results of the EDA
